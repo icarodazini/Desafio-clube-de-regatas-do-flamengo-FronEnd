@@ -1,20 +1,25 @@
 header {
     background: #333;
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     overflow: hidden;
     position: fixed;
     top: 0;
+    max-height: 10;
+}
+
+header img {
+    max-width: 40px;
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     padding: 0 30px;
 }
 
 main {
-    padding-top: 180px;
+    padding-top: 140px;
 }
 
 main > img {
@@ -29,11 +34,25 @@ section div p {
     color: white;
 }
 
+button {
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF;
+    font-size: 20px;
+}
+
+button:hover {
+    transform: scale(0.7);
+}
+
 
 main h1 {
     text-align: center;
     font-size: 30px;
-    margin: 15px 0;
+    margin: 10px 0;
+}
+
+.box{
+    text-align: center;
 }
 
 .tamanho {
@@ -42,7 +61,7 @@ main h1 {
 
 .iframe {
     width: 100%;
-    padding: 180px 0;
+    padding: 130px 0;
     padding-top: 0;
 }
 .banner {
@@ -60,8 +79,9 @@ footer {
 }
 
 footer img {
-    max-width: 170px;
+    max-width: 90px;
     margin: 10px;
+
 
 }
 
@@ -81,6 +101,6 @@ footer img {
 
 .box  > div {
     border: 2px solid #000000;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
