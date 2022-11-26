@@ -7,14 +7,28 @@ header {
     top: 0;
 }
 
+header h1 {
+    font-size: 20px;
+    color: white;
+    padding: 0 30px;
+}
+
 main {
     padding-top: 180px;
 }
 
-header h1 {
+main > img {
+    max-width: 100%;
+    display: block;
+}
+
+section div p {
+    text-align: center;
     font-size: 22px;
+    background: #333;
     color: white;
 }
+
 
 main h1 {
     text-align: center;
@@ -22,21 +36,45 @@ main h1 {
     margin: 15px 0;
 }
 
+.iframe {
+    width: 100%;
+    padding: 200px 0;
+}
 .banner {
-    width: 100px;
+    width: 60px;
+    padding: 0 50px;
 }
 
 footer {
-    text-align: center;
-    bottom: 0;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
     background: #333;
-    margin-bottom:  ;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+
 }
 
-.rodape {
+footer img {
+    max-width: 170px;
+    margin: 10px;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex: grid;
     
+}
+
+.box > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.box  > div {
+    border: 2px solid #000000;
 }
 
